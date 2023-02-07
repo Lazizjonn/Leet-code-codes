@@ -1,3 +1,4 @@
+/*
 package LeetCode;
 
 public class Subsequence392 {
@@ -20,3 +21,4 @@ public class Subsequence392 {
         return false;
     }
 }
+*/

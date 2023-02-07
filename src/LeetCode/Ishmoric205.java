@@ -1,3 +1,4 @@
+/*
 package LeetCode;
 
 import java.util.HashMap;
@@ -26,3 +27,4 @@ public class Ishmoric205 {
         return map1.size() == map2.size();
     }
 }
+*/

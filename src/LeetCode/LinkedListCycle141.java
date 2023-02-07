@@ -1,3 +1,4 @@
+/*
 package LeetCode;
 
 
@@ -24,4 +25,4 @@ class Solution141 {
         }
         return false;
     }
-}
+}*/

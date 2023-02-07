@@ -1,12 +1,13 @@
+/*
 package LeetCode;
 
 public class FirstBadVersion278 {
 }
 
-/* The isBadVersion API is defined in the parent class VersionControl.
-      boolean isBadVersion(int version); */
+ The isBadVersion API is defined in the parent class VersionControl.
+      boolean isBadVersion(int version);
 
-/*public class Solution {
+public class Solution {
     public int firstBadVersion(int n) {
         int start = 1;
         int end = n;
@@ -28,4 +29,5 @@ public class FirstBadVersion278 {
     }
 
 
-}*/
+}
+*/

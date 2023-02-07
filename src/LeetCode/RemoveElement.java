@@ -1,3 +1,4 @@
+/*
 package LeetCode;
 
 
@@ -13,4 +14,4 @@ public class RemoveElement {
         }
         return x;
     }
-}
+}*/
