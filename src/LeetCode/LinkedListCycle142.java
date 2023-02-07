@@ -1,3 +1,4 @@
+/*
 package LeetCode;
 
 public class LinkedListCycle142 {
@@ -11,9 +12,9 @@ public class LinkedListCycle142 {
         listNode2.next = listNode3;
         listNode3.next = listNode4;
         listNode4.next = listNode5;
-        listNode5.next = listNode1;
+//        listNode5.next = listNode3;
         Solution solution = new Solution();
-        System.out.println(solution.detectCycle(listNode1));
+        System.out.println(solution.detectCycle(listNode1).val);
     }
 }
 
@@ -31,29 +32,21 @@ class ListNode {
 
 class Solution {
     public ListNode detectCycle(ListNode head) {
-        if (head.next == null) return head;
-        int num = findValueInCycle(head);
-        if (num != -1) return null;
-        while (head.val == num) {
-            head = head.next;
-        }
-        return head;
-    }
-
-    private int findValueInCycle(ListNode head) {
         ListNode fast = head, slow = head;
 
         while (fast != null && fast.next != null) {
             slow = slow.next;
             fast = fast.next.next;
 
-            if (slow == fast) return slow.val;
+            if (slow == fast) break;
+        } // bor yo'qligini topadi, o'sha yerda referencini qoldiradi
 
-        }
-        return -1;
+        if (fast == null || fast.next == null) return null; // ulanmagan bolsa qaytarvoradi;
+
+        while (head != slow) {
+            head = head.next;
+            slow = slow.next;
+        } //
+        return head;
     }
-}
-
-
-
-
+}*/
