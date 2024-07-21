@@ -1,4 +1,4 @@
-package LeetCode.dfs;
+package LeetCode.JavaLan.dfs;
 
 import java.util.ArrayList;
 import java.util.List;

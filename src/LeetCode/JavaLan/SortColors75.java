@@ -1,6 +1,4 @@
-package LeetCode;
-
-import java.util.Arrays;
+package LeetCode.JavaLan;
 
 /*public class SortColors75 {
     public void sortColors(int[] nums) {
